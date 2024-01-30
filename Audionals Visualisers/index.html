@@ -2,13 +2,43 @@
 <html>
 <head>
     <title>Audio Visualizer</title>
+    <style>
+        .visualizer-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        canvas {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            background-color: #000;
+        }
+    </style>
 </head>
 <body>
     <input type="file" id="audioFile" accept="audio/*" />
     <button id="playButton">Play</button>
-    <canvas id="visualizerCanvas"></canvas>
 
-    <!-- Import only main.js as a module. Other modules are imported by main.js -->
+    <div class="visualizer-grid">
+        <!-- Create 16 canvas elements for the visualizers -->
+        <canvas id="visualizerCanvas"></canvas>
+        <canvas id="visualizerCanvas_v2"></canvas>
+        <canvas id="visualizerCanvas_v3"></canvas>
+        <canvas id="visualizerCanvas_v4"></canvas>
+        <canvas id="visualizerCanvas_v5"></canvas>
+        <canvas id="visualizerCanvas_v6"></canvas>
+        <canvas id="visualizerCanvas_v7"></canvas>
+        <canvas id="visualizerCanvas_v8"></canvas>
+        <canvas id="visualizerCanvas_v9"></canvas>
+        <canvas id="visualizerCanvas_v10"></canvas>
+        <canvas id="visualizerCanvas_v11"></canvas>
+        <canvas id="visualizerCanvas_v12"></canvas>
+        <canvas id="visualizerCanvas_v13"></canvas>  
+        <canvas id="visualizerCanvas_v14"></canvas>              
+        <canvas id="visualizerCanvas_v15"></canvas>
+    </div>
+
     <script type="module" src="main.js"></script>
 </body>
 </html>
