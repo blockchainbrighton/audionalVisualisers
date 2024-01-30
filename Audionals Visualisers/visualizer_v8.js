@@ -1,6 +1,6 @@
 import { analyser, dataArray } from './audio.js';
 
-const canvas = document.getElementById('visualizerCanvas');
+const canvas = document.getElementById('visualizerCanvas_v8');
 const ctx = canvas.getContext('2d');
 const particles = [];
 const shapes = ['circle', 'square']; // Add more shapes as needed

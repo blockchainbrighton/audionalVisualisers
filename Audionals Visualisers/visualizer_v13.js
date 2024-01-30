@@ -1,6 +1,6 @@
 import { analyser, dataArray } from './audio.js';
 
-const canvas = document.getElementById('visualizerCanvas');
+const canvas = document.getElementById('visualizerCanvas_v13');
 const ctx = canvas.getContext('2d');
 const centerX = canvas.width / 2;
 const centerY = canvas.height / 2;

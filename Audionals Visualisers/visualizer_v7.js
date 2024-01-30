@@ -1,6 +1,6 @@
 import { analyser, dataArray } from './audio.js';
 
-const canvas = document.getElementById('visualizerCanvas');
+const canvas = document.getElementById('visualizerCanvas_v7');
 const ctx = canvas.getContext('2d');
 let particles = [];  // Changed from const to let
 
